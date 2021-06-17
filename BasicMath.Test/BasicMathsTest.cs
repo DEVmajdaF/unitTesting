@@ -10,10 +10,13 @@ namespace BasicMath.Test
         public void Test_AddMethod()
         {
             //Arrange
+            //initializes objects and sets the value of the data that is passed to the method under test.
             BasicMaths bm = new BasicMaths();
             //Art
+            //invokes the method under test with the arranged parameters.
             double resultat = bm.Add(10, 10);
             //Assert
+            //verifies that the action of the method under test behaves as expected.
             Assert.AreEqual(resultat, 20);
         }
 
